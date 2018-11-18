@@ -1,0 +1,56 @@
+body {
+    background-color: #F4EEE2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Rancho', cursive;
+    font-size: 4.0rem;
+    color: #F1E1C4 !important;
+}
+
+.bg-dark {
+    background-color: #0B1816 !important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    /* color: #F0A00A; */
+    color: rgb(228, 217, 200);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #F1E1C4;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #F0A00A;
+}
+
+.navbar {
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+}
+.nav-item::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:2px;
+    background:#fec400;
+    transition: 0.2s;
+}
+
+.nav-item:hover::after{
+    width:100%;
+}
+#navbarSupportedContent > ul > li.nav-item {
+    margin-right: 1.5rem;
+}
+
+.nav-link{padding:15px 5px;transition:0.2s;}
+
+li > i {
+    color: #F1E1C4;
+    padding-left: 5px !important;
+}

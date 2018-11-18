@@ -1,0 +1,93 @@
+.gallery-block {
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+
+.morepics {
+  margin-bottom:40px;
+  padding-bottom: 40px !important;
+}
+
+.gallery-block .heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block .heading h2 {
+    font-size: 3.4rem;
+    font-family: 'Rancho', cursive;
+}
+
+.gallery-block.cards-gallery h6 {
+  font-size: 1.8rem;
+  font-weight: bold; 
+}
+
+.gallery-block.cards-gallery .card {
+  transition: 0.4s ease; 
+}
+
+.gallery-block.cards-gallery .card img {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.gallery-block.cards-gallery .card-body {
+  text-align: left; 
+}
+
+.gallery-block.cards-gallery .card-body p {
+  font-size: 15px; 
+}
+
+.gallery-block.cards-gallery a {
+  color: #212529; 
+}
+
+.gallery-block.cards-gallery a:hover {
+  text-decoration: none; 
+}
+
+.gallery-block.cards-gallery .card {
+  margin-bottom: 30px; 
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-left {
+  border-bottom-left-radius: calc(.25rem - 1px);
+  border-top-left-radius: calc(.25rem - 1px);
+  float: left;
+  padding-right: 1em;
+  margin-bottom: -1.25em;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.details-gallery img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  width: 150px;
+}
+
+.details-gallery .thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.details-gallery .pl-3, .px-3 {
+  padding-left: .3rem!important;
+}
+
+.breadcrumb {
+  background-color: #F5F1E7;
+}
+
+@media (min-width: 576px) {
+
+	.gallery-block .transform-on-hover:hover {
+	    transform: translateY(-10px) scale(1.02);
+	    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+	}
+}
