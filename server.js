@@ -1,13 +1,11 @@
 const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
-
-var app = express();
 const port = process.env.Port || 3000;
 const siteName = 'Wente Test';
 
+var app = express();
 hbs.registerPartials(__dirname + '/views/partials');
-
 app.set('view engine', 'hbs');
 app.use(express.static('./'));
 
