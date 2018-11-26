@@ -54,3 +54,10 @@ li > i {
     color: #F1E1C4;
     padding-left: 5px !important;
 }
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
