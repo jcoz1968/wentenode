@@ -70,6 +70,14 @@ app.get('/sires', (req, res) => {
   });
 });
 
+app.get('/pics', (req, res) => {
+  res.render('pics.hbs', {
+    pageTitle: 'Gallery',
+    siteName: siteName
+  });
+});
+
+
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
